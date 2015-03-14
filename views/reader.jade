@@ -1,0 +1,7 @@
+.reader-wrapper(ng-controller='readerCtrl as reader')
+	input(type='text', ng-model='reader.path')
+	button(ng-click='reader.read()') Read directory
+	table
+		tr(ng-repeat='file in reader.files')
+			td(ng-bind='file.filename')
+			td(ng-bind='reader.getSize(file.data.size)')
