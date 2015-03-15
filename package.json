@@ -1,6 +1,6 @@
 {
   "name": "directory-reader",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "dependencies": {
     "gulp": "^3.8.11",
     "minimist": "^1.1.1",
