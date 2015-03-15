@@ -30,5 +30,4 @@ node_modules
 #WebStorm
 .idea
 
-#bower
-public/bower_components
+data

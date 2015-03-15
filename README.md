@@ -1,17 +1,10 @@
 # Directory Reader
 
-Web application for reading directory and making changes with files
-
-## Dependencies
-
-	ExpressJS
-	AngularJS
-	Jade
+Gulpfile for copying and finding the same files in directory
 
 ## Installation
 	npm i
-	bower i
-	npm i -g nodemon
 
 ## Run
-	nodemon
+	gulp --path [path] --dest [dest]
+	gulp find --dest [dest]
